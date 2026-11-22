@@ -1,0 +1,37 @@
+name: praktek_mobile_gis
+description: "Starter project Praktek Mobile GIS - dikembangkan bertahap Pertemuan 5-16."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Peta (basemap OpenStreetMap, tanpa API key) - dipakai mulai Pertemuan 7
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # GPS - dipakai mulai Pertemuan 8
+  geolocator: ^14.0.0
+
+  # Kamera + geotagging - dipakai mulai Pertemuan 11
+  image_picker: ^1.1.2
+
+  # Database lokal - dipakai mulai Pertemuan 12
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Kirim data ke Google Apps Script - dipakai mulai Pertemuan 13
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
